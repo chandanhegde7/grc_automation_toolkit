@@ -1,12 +1,20 @@
 QuestionID,QuestionText,AnswerType,RiskWeight,RiskArea,RelevantFrameworkControl
-VSAT-001,Do you maintain an inventory of information assets?,yes_no,2,Asset Management,
-VSAT-DATA01,Do you encrypt sensitive customer data at rest?,yes_no,5,Data Security,
-VSAT-DATA02,Do you encrypt sensitive customer data in transit?,yes_no,4,Data Security,
-VSAT-ACCESS01,How is user access to sensitive data managed and reviewed?,text,3,Access Control,
-VSAT-ACCESS02,Is Multi-Factor Authentication (MFA) required for administrative access?,yes_no,5,Access Control,
-VSAT-IR01,Do you have a documented incident response plan?,yes_no,4,Incident Response,
-VSAT-BCP01,How often do you test your business continuity/disaster recovery plan?,score_1_5,3,BCP/DR,
-VSAT-COMP01,Are you ISO 27001 certified or do you follow similar controls?,yes_no,4,Compliance,
-VSAT-COMP02,Have you undergone a SOC 2 audit in the last 12 months?,yes_no,3,Compliance,
+VSAT-001,Do you maintain an inventory of information assets?,yes_no,2,Asset Management,ISO27001:A.8.1.1; NISTCSF:ID.AM-1
+VSAT-DATA01,Do you encrypt sensitive customer data at rest?,yes_no,5,Data Security,ISO27001:A.8.2.3; NISTCSF:PR.DS-1
+VSAT-DATA02,Do you encrypt sensitive customer data in transit?,yes_no,4,Data Security,ISO27001:A.8.2.3; NISTCSF:PR.PT-4
+VSAT-ACCESS01,How is user access to sensitive data managed and reviewed?,text,3,Access Control,ISO27001:A.9.2.1; NISTCSF:PR.AC-1
+VSAT-ACCESS02,Is Multi-Factor Authentication (MFA) required for administrative access?,yes_no,5,Access Control,ISO27001:A.9.2.4; NISTCSF:PR.AC-7
+VSAT-IR01,Do you have a documented incident response plan?,yes_no,4,Incident Response,ISO27001:A.16.1.2; NISTCSF:PR.IP-4
+VSAT-BCP01,How often do you test your business continuity/disaster recovery plan?,score_1_5,3,BCP/DR,ISO27001:A.17.1.3; NISTCSF:RS.RP-1
+VSAT-COMP01,Are you ISO 27001 certified or do you follow similar controls?,yes_no,4,Compliance,ISO27001:A.18.1.1; NISTCSF:ID.RA-1
+VSAT-COMP02,Have you undergone a SOC 2 audit in the last 12 months?,yes_no,3,Compliance,NISTCSF:ID.GV-3
 VSAT-GEN01,Please provide a summary of your overall security program.,text,1,General Security,
-VSAT-SCORE01,Rate your confidence in your current vulnerability management program (1=Low 5=High).,score_1_5,4,Vulnerability Management,
+VSAT-SCORE01,Rate your confidence in your current vulnerability management program (1=Low 5=High).,score_1_5,4,Vulnerability Management,ISO27001:A.12.6.1; NISTCSF:ID.GV-1
+VSAT-LOG01,Do you centrally log security events for your systems?,yes_no,4,Logging,ISO27001:A.12.4.1; NISTCSF:DE.AE-3
+VSAT-PHYS01,Do you have physical access controls for facilities housing sensitive data?,yes_no,3,Physical Security,ISO27001:A.11.1.2; NISTCSF:PR.PS-3
+VSAT-SUB01,Do you use any sub-processors who will handle our sensitive data?,yes_no,3,Third-Party,ISO27001:A.15.1.2; NISTCSF:ID.SC-2
+VSAT-PERS01,Do you conduct background checks for employees with access to sensitive data?,yes_no,4,Personnel Security,ISO27001:A.7.1.1; NISTCSF:PR.AC-4
+VSAT-PATCH01,How often are security patches applied to critical systems?,score_1_5,5,Vulnerability Management,ISO27001:A.12.6.1; NISTCSF:ID.IM-2
+VSAT-DATASEC03,Is data minimization implemented where possible?,yes_no,3,Data Security,ISO27001:A.8.2.2; NISTCSF:PR.DS-2
+VSAT-PRIV01,Do you have a privacy policy that is easily accessible?,yes_no,2,Privacy,ISO27001:A.18.1.4; NISTCSF:ID.GV-2
+VSAT-TRAIN01,How often do you conduct security awareness training for employees?,score_1_5,3,Personnel Security,ISO27001:A.7.2.2; NISTCSF:PR.AT-1
