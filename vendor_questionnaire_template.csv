@@ -1,0 +1,12 @@
+QuestionID,QuestionText,AnswerType,RiskWeight,RiskArea,RelevantFrameworkControl
+VSAT-001,Do you maintain an inventory of information assets?,yes_no,2,Asset Management,
+VSAT-DATA01,Do you encrypt sensitive customer data at rest?,yes_no,5,Data Security,
+VSAT-DATA02,Do you encrypt sensitive customer data in transit?,yes_no,4,Data Security,
+VSAT-ACCESS01,How is user access to sensitive data managed and reviewed?,text,3,Access Control,
+VSAT-ACCESS02,Is Multi-Factor Authentication (MFA) required for administrative access?,yes_no,5,Access Control,
+VSAT-IR01,Do you have a documented incident response plan?,yes_no,4,Incident Response,
+VSAT-BCP01,How often do you test your business continuity/disaster recovery plan?,score_1_5,3,BCP/DR,
+VSAT-COMP01,Are you ISO 27001 certified or do you follow similar controls?,yes_no,4,Compliance,
+VSAT-COMP02,Have you undergone a SOC 2 audit in the last 12 months?,yes_no,3,Compliance,
+VSAT-GEN01,Please provide a summary of your overall security program.,text,1,General Security,
+VSAT-SCORE01,Rate your confidence in your current vulnerability management program (1=Low 5=High).,score_1_5,4,Vulnerability Management,
